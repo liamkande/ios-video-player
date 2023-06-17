@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F311362F2A3D3B7900F6E3E1 /* sample1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F311362E2A3D3B7900F6E3E1 /* sample1.mp4 */; };
 		F33CD9C62A395ED3001E77DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33CD9C52A395ED3001E77DF /* AppDelegate.swift */; };
 		F33CD9C82A395ED3001E77DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33CD9C72A395ED3001E77DF /* SceneDelegate.swift */; };
 		F33CD9CA2A395ED3001E77DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33CD9C92A395ED3001E77DF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F311362E2A3D3B7900F6E3E1 /* sample1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample1.mp4; path = ../../../Downloads/sample1.mp4; sourceTree = "<group>"; };
 		F33CD9C22A395ED3001E77DF /* video_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33CD9C52A395ED3001E77DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F33CD9C72A395ED3001E77DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		F33CD9C42A395ED3001E77DF /* video_player */ = {
 			isa = PBXGroup;
 			children = (
+				F311362E2A3D3B7900F6E3E1 /* sample1.mp4 */,
 				F33CD9C52A395ED3001E77DF /* AppDelegate.swift */,
 				F33CD9C72A395ED3001E77DF /* SceneDelegate.swift */,
 				F33CD9C92A395ED3001E77DF /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F33CD9D22A395ED4001E77DF /* LaunchScreen.storyboard in Resources */,
+				F311362F2A3D3B7900F6E3E1 /* sample1.mp4 in Resources */,
 				F33CD9CF2A395ED4001E77DF /* Assets.xcassets in Resources */,
 				F33CD9CD2A395ED3001E77DF /* Main.storyboard in Resources */,
 			);
