@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    private func findVideo() {
+        
+        guard let path = Bundle.main.path(forResource: "sample1", ofType: "m4v") else {
+            debugPrint("Video.m4v not found")
+            return
+        }
+    }
 }
 
